@@ -1,0 +1,40 @@
+# Compiled object files and binaries
+*.o
+*.out
+*.exe
+
+# Executables generated from experiments
+backlog_queue_overflow
+circular_wait_and_gdb_backtracking
+TLB_and_EMAT
+dynamic_polymorphism_and_vptr_hijacking
+elevator_algorithm
+beladys_anomaly_simulator
+Unix_inode_file_size_limits
+process_cloning_and_zombie_generation
+bankers_algorithm_safety_audit
+mutex_ownership_vs_semaphore_signaling
+preemptive_CPU_scheduling_emulation
+threadsanitizer_and_the_data_race
+HTTP_parsing_and_framing
+raw_sockets_and_SO_REUSEPORT
+shallow_vs_deep_copy
+struct_padding_and_greedy_alignment
+binary_executable_segments
+syscall_context_switch_tax/buffered_write
+syscall_context_switch_tax/unbuffered_write
+
+# Intermediate generated test outputs
+syscall_context_switch_tax/*_output.txt
+
+# Database files generated during experiments
+*.db
+*.db-wal
+*.db-shm
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+*.swp
+*.swo
+
